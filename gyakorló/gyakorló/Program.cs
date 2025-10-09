@@ -23,12 +23,12 @@ namespace gyakorló
 
             if ((now >= regg_s) && (now < regg_e))
             {
-                Console.WriteLine("Jó regget!");
+                Console.WriteLine("Jó reggelt!");
             }
 
             if ((now >= délE_s) && (now < délE_e))
             {
-                Console.WriteLine("Dél előtt van!");
+                Console.WriteLine("Délelőtt van!");
             }
 
             if (now == dél)
@@ -38,7 +38,7 @@ namespace gyakorló
 
             if ((now > délU_s) && (now < délU_e))
             {
-                Console.WriteLine("Dél után van!");
+                Console.WriteLine("Délután van!");
             }
             if ((now >= este_s) && (now < este_e))
             {
@@ -51,8 +51,39 @@ namespace gyakorló
             double profit = 0;
             for (int i = 0; i <= év; i++) {
                 profit += össz * 0.1; }
-            Console.WriteLine($"A kezdeti {össz}-Ft {év} évnyi elteltével {profit}-Ft profitot kapott");
+            Console.WriteLine($"A kezdeti {össz}-Ft {év} évnyi elteltével {profit}-Ft profitot kaphat");
 
+            Console.WriteLine("Adja meg a futó kezdő sebességét m/s-ban");
+            double v0 = double.Parse(Console.ReadLine());
+ 
+            {
+                double vmax = v0 + 2.0;
+                double distance = 100.0;
+
+                Console.WriteLine("\nTáv(m)\tSebesség(km/h)");
+
+                for (int d = 0; d <= 100; d += 10)
+                {
+                    double speed;
+
+                    if (d <= 50)
+                    {
+
+                        speed = v0 + (vmax - v0) * d / 50.0;
+                    }
+                    else if (d <= 90)
+                    {
+                        speed = vmax;
+                    }
+                    else
+                    {
+                        speed = vmax * (100 - d) / 10.0;
+                    }
+
+                    double speedKmh = speed * 3.6;
+                    Console.WriteLine($"{d}\t{speedKmh}");
+                }
+            }
         }
     }
 }
