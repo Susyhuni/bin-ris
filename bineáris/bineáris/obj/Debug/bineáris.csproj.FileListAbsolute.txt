@@ -1,0 +1,7 @@
+C:\Users\solyomhj\source\repos\bineáris\bineáris\obj\Debug\bineáris.csproj.AssemblyReference.cache
+C:\Users\solyomhj\source\repos\bineáris\bineáris\obj\Debug\bineáris.csproj.CoreCompileInputs.cache
+C:\Users\solyomhj\source\repos\bineáris\bineáris\bin\Debug\bineáris.exe.config
+C:\Users\solyomhj\source\repos\bineáris\bineáris\bin\Debug\bineáris.exe
+C:\Users\solyomhj\source\repos\bineáris\bineáris\bin\Debug\bineáris.pdb
+C:\Users\solyomhj\source\repos\bineáris\bineáris\obj\Debug\bineáris.exe
+C:\Users\solyomhj\source\repos\bineáris\bineáris\obj\Debug\bineáris.pdb
