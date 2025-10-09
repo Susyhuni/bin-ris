@@ -1,0 +1,7 @@
+C:\Users\solyomhj\source\repos\gyakorló\gyakorló\bin\Debug\gyakorló.exe.config
+C:\Users\solyomhj\source\repos\gyakorló\gyakorló\bin\Debug\gyakorló.exe
+C:\Users\solyomhj\source\repos\gyakorló\gyakorló\bin\Debug\gyakorló.pdb
+C:\Users\solyomhj\source\repos\gyakorló\gyakorló\obj\Debug\gyakorló.csproj.AssemblyReference.cache
+C:\Users\solyomhj\source\repos\gyakorló\gyakorló\obj\Debug\gyakorló.csproj.CoreCompileInputs.cache
+C:\Users\solyomhj\source\repos\gyakorló\gyakorló\obj\Debug\gyakorló.exe
+C:\Users\solyomhj\source\repos\gyakorló\gyakorló\obj\Debug\gyakorló.pdb
