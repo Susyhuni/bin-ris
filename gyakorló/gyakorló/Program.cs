@@ -44,6 +44,15 @@ namespace gyakorló
             {
                 Console.WriteLine("Jó estét!");
             }
+            Console.WriteLine("Mekkora pénzt szeretne lekötni");
+            double össz = int.Parse(Console.ReadLine());
+            Console.WriteLine("Hány évig?");
+            int év = int.Parse(Console.ReadLine());
+            double profit = 0;
+            for (int i = 0; i <= év; i++) {
+                profit += össz * 0.1; }
+            Console.WriteLine($"A kezdeti {össz}-Ft {év} évnyi elteltével {profit}-Ft profitot kapott");
+
         }
     }
 }
